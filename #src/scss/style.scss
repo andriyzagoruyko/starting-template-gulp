@@ -1,10 +1,9 @@
 @import "libs/_normalize";
-@import "libs/_magnific";
-@import "libs/_swiper";
-@import "libs/_lightgallery";
 
 @import "_vars";
 @import "_utils";
+@import "_fonts";
+@import "_ui";
 
 $md1: 1250;
 $md2: 1170;
@@ -14,3 +13,4 @@ $md5: 768;
 $md6: 720;
 $md7: 480;
 $md8: 350;
+
