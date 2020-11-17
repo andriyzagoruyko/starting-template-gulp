@@ -30,10 +30,7 @@ dist_folder.forEach((dist, i) => {
 });
 
 function clean(cb) {
-    dist_folder.forEach((path) => {
-        del.sync(path);
-    });
-
+	del.sync(dist_folder[0]);
     cb();
 }
 
